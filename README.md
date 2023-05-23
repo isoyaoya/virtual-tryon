@@ -11,6 +11,7 @@ AI Generated Content (AIGC，人工智能自动生成内容 )，是继专业生�
 https://aws.amazon.com/cn/blogs/china/accelerated-e-commerce-ad-material-generation-using-grounded-sam-based-on-amazon-sagemaker-part-one/
 
 **（2）基于All in one AI - Stable diffusion WebUI solution**
+
 该方案基于开源项目stable-diffusion-webui 改造，有带UI界面和仅API的2个版本。方案将传统单体应用改造为分布式系统，具有以下优势：
 •	推理时使用SageMaker Endpoint 来处理请求，因此无需担忧单机部署所带来的性能瓶颈，以及生产中请求负载均衡/资源自动阔缩/流量迁移 等工程化问题。训练时使用 SageMaker Training job，解除了单机资源限制，并且更便于进行模型管理与训练任务管理。
 •	方案 UI 版本可以帮助使用者基于 UI 快速进行概念验证及测试，对各类技术水平人员友好。API版本可以实现生产快速部署，并通过API 来将此方案与您自身系统/业务场景结合。
